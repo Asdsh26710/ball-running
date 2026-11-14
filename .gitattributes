@@ -1,0 +1,35 @@
+# Unity YAML 文本文件：强制 LF，避免 Windows 上 CRLF 警告与合并冲突
+*.unity       text eol=lf
+*.prefab      text eol=lf
+*.asset       text eol=lf
+*.mat         text eol=lf
+*.meta        text eol=lf
+*.controller  text eol=lf
+*.anim        text eol=lf
+*.physicMaterial text eol=lf
+*.terrainlayer text eol=lf
+*.shader      text eol=lf
+*.cginc       text eol=lf
+*.hlsl        text eol=lf
+*.json        text eol=lf
+*.txt         text eol=lf
+*.md          text eol=lf
+
+# 二进制资源
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.tga   binary
+*.psd   binary
+*.exr   binary
+*.fbx   binary
+*.obj   binary
+*.blend binary
+*.wav   binary
+*.mp3   binary
+*.ogg   binary
+*.ttf   binary
+*.otf   binary
+*.dll   binary
+*.exe   binary
+*.zip   binary
